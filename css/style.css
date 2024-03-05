@@ -1,8 +1,21 @@
 * {
-    margin: 0 0 0 0.2em;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.574);
+}
+
+header {
+    background-color: white;
+}
+
+img {
+    margin-left: 1em;
+    vertical-align: middle;
 }
 
 .titolo {
@@ -12,17 +25,17 @@
     font-weight: 600;
 }
 
-img {
-    vertical-align: middle;
-}
-
-section {
-    height: 100px;
-    margin-bottom: 1em;
-}
-
 main {
-    margin-left: 35%;
+    margin: 0 20%;
+}
+
+.areabutton {
+    margin-top: 3em;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    border-radius: 10px 10px 0 0;
 }
 
 .bottoni {
@@ -36,12 +49,22 @@ main {
 .bottoni:first-child {
     background-color: rgb(38, 132, 147);
     color: white;
-    border: solid 3px rgb(38, 132, 147);
+    border: solid 2px rgb(38, 132, 147);
 }
 
 .bottoni:nth-child(2) {
-    border: solid 3px grey;
+    border: solid 2px grey;
     color: grey;
+    background-color: white;
+}
+
+.arealist {
+    margin-top: 0.3em;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    border-radius: 0 0 10px 10px;
 }
 
 ul {
@@ -50,6 +73,8 @@ ul {
 
 h2 {
     font-size: 1.2em;
+    color: rgb(95, 95, 95);
+    margin-bottom: 0.2em;
 }
 
 li {
@@ -66,4 +91,11 @@ span {
     border-radius: 50%;
     font-size: 0.5em;
     font-weight: 500;
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
 }
