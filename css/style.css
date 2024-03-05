@@ -40,7 +40,7 @@ main {
 
 .bottoni {
     border-radius: 5px;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     font-weight: 900;
     cursor: pointer;
     border-style: none;
@@ -98,4 +98,38 @@ span {
 .cross {
     border-color: red;
     color: red;
+}
+
+.tag {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 0.5em;
+    padding: 0.1em 0.6em;
+    color: white;
+}
+
+#blue {
+    background-color: rgb(0, 166, 255);
+    border-color: rgb(0, 166, 255);
+}
+
+#violet {
+    background-color: violet;
+    border-color: violet;
+}
+
+#green {
+    background-color: green;
+    border-color: green;
+}
+
+#pink {
+    background-color: rgb(215, 104, 123);
+    border-color: rgb(215, 104, 123);
+}
+
+#olive {
+    background-color: olive;
+    border-color: olive;
 }
