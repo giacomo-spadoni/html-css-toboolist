@@ -49,11 +49,11 @@ main {
 .bottoni:first-child {
     background-color: rgb(38, 132, 147);
     color: white;
-    border: solid 2px rgb(38, 132, 147);
+    border: solid 1px rgb(38, 132, 147);
 }
 
 .bottoni:nth-child(2) {
-    border: solid 2px grey;
+    border: solid 1px grey;
     color: grey;
     background-color: white;
 }
@@ -132,4 +132,9 @@ span {
 #olive {
     background-color: olive;
     border-color: olive;
+}
+
+#orange {
+    background-color: orange;
+    border-color: orange;
 }
