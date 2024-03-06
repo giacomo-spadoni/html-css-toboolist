@@ -82,15 +82,11 @@ li {
 }
 
 span {
-    text-align: center;
-    vertical-align: middle;
-    box-sizing: content;
     display: inline-block;
-    width: 12px;
+    padding: 0 2px;
     border: 1px solid;
     border-radius: 50%;
     font-size: 0.5em;
-    font-weight: 500;
     border-color: green;
     color: green;
 }
