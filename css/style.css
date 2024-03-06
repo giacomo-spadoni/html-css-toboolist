@@ -105,32 +105,32 @@ span {
     color: white;
 }
 
-#blue {
+.blue {
     background-color: rgb(0, 166, 255);
     border-color: rgb(0, 166, 255);
 }
 
-#violet {
+.violet {
     background-color: violet;
     border-color: violet;
 }
 
-#green {
+.green {
     background-color: green;
     border-color: green;
 }
 
-#pink {
+.pink {
     background-color: rgb(215, 104, 123);
     border-color: rgb(215, 104, 123);
 }
 
-#olive {
+.olive {
     background-color: olive;
     border-color: olive;
 }
 
-#orange {
+.orange {
     background-color: orange;
     border-color: orange;
 }
